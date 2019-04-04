@@ -353,7 +353,7 @@ a {
 
 .btn,
 .button {
-    border: none;
+    border: 1px solid #ddd;
     display: inline-block;
     padding: 8px 16px;
     vertical-align: middle;
@@ -363,11 +363,12 @@ a {
     background-color: inherit;
     text-align: center;
     cursor: pointer;
-    white-space: nowrap
+    white-space: nowrap;
+    
 }
 
 .btn:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .btn,
